@@ -1,0 +1,56 @@
+.welcome{
+    font-size: 25px;
+    text-align: center;
+    color:whitesmoke;
+    padding-left: 49%;
+    padding-top: 5%;
+    letter-spacing: 1.8px;
+    
+
+}
+.quote{
+    font-size: 13px;
+    text-align: center;
+    color:whitesmoke;
+    padding-left: 49%;
+    padding-top: 1px;
+    letter-spacing: 1.8px;
+
+}
+
+.welcome span{
+    padding-top: 2%;
+    font-size :40px;
+    letter-spacing: 6px;
+    color:wheat;
+    stroke: whitesmoke;
+    font-weight: bolder;
+
+}
+
+.lpage{
+    background: url(/images/LandingPage.jpg);
+    
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+#Login{
+    margin-left: 40%;
+}
+.container{
+    padding-top: 20px;
+    padding-left: 56%;
+    padding-right: 90px;
+}
+.newhere
+{
+    font-size: 13px;
+    text-align: center;
+    color:whitesmoke;
+    padding-left: -90px;
+    padding-top: 10px;
+    letter-spacing: 1.8px;
+   
+}
