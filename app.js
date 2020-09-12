@@ -27,14 +27,13 @@ let postSchema = new mongoose.Schema({
 
 });
 
-var posts = mongoose.model("posts",postSchema);
+var dscposts = mongoose.model("posts",postSchema);
 
-posts.create({
+dscposts.create({
     title : "Hello",
     image : "Image",
     description : "Description"
 });
-
 
 
 
@@ -48,12 +47,17 @@ app.get("/",function(req,res){
     res.render("homepage.ejs");
 })
 
-//posts route
+//POSTS PAGE  ROUTE
 
 app.get("/posts",function(req,res){
     res.send("Posts Page !");
 })
 
+//REGISTER PAGE ROUTE
+
+app.get("/register",function(req,res){
+    res.render("register.ejs")
+})
 
 
 
